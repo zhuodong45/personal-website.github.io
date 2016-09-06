@@ -1,0 +1,134 @@
+.btn1 {
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-size: 140%;
+  font-weight: 500;
+  line-height: 40px;
+  font-family: Raleway;
+  margin: 0px;
+  max-width: 110px;
+  text-decoration: none;
+  text-align:center;
+  width: 100%;
+}
+
+.btn1:hover {
+  text-decoration: none;
+}
+
+.btn-2 {
+  letter-spacing: 0;
+}
+
+.btn-2:hover,
+.btn-2:active {
+  letter-spacing: 1px;
+}
+
+.btn-2:after,
+.btn-2:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border: 1px solid rgba(0, 0, 0, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  -webkit-transition: all 280ms ease-in-out;
+          transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.btn-2:hover:after,
+.btn-2:hover:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-color: white;
+  -webkit-transition: width 350ms ease-in-out;
+          transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.btn-2:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+
+.dropdown-btn{
+  border: 1px solid rgba(255, 255, 255, 1);
+  margin-left: 5px;
+}
+
+.dropdown-btn:focus,
+.dropdown-btn:active,
+.dropdown-btn:visited {
+  border: 1px solid rgba(255, 255, 255, 1);
+  text-decoration: none;
+  outline: none;
+}
+
+.dropdown-position{
+  position: fixed;
+  top:45px;
+  left: 0%;
+}
+
+.dropdown-span{
+  margin: 0px;
+  color: white;
+}
+
+.dropdown-ul{
+  padding: 5px;
+  background: #737373;
+}
+
+.empty-background{
+  background-image:url(../img/key.jpg);
+  background-attachment:fixed;
+  background-size:cover;
+}
+
+.hidden{
+  display: none;
+}
+
+.logo-style{
+  width: 200px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.pageheader1{
+  border: none;
+  border-radius: 0px;
+  position: fixed;
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
+  background-color:rgba(0,0,0,0.4);
+  transition: background-color 0.5s;
+  width: 100%;
+  z-index: 100;
+  top: 0px;
+}
+
+.pageheader1:hover{
+  background-color:#272727;
+}
+
+.ulstyle{
+  width: 100px;
+  float: left;
+  list-style: none;
+  text-align: right;
+}
+
+.ulstyle li{
+  float: left;
+  list-style: none;
+  margin: 0px;
+}

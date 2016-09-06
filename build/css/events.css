@@ -1,0 +1,17 @@
+.event-font-style{
+  font-size: 150%;
+  line-height: 120%;
+  color: white;
+  text-decoration:none;
+}
+.event-hr-style{
+  margin: 15px;
+}
+
+.margin-style{
+  margin:10px;
+}
+
+.margin-bot{
+  margin-bottom: 20px;
+}

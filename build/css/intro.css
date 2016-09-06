@@ -1,0 +1,65 @@
+/*hello css------------------
+.content {
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  margin: -30px 0 0 -250px;
+  font-size: 50px;
+  font-family:'Muli';
+  height: 60px;
+  width: 500px;
+  overflow:hidden;
+}
+.myul {
+  margin-top:0;
+  list-style:none;
+  animation:10s linear 0s normal none infinite change;
+}
+.myul li {
+  line-height:60px;
+  margin:0;
+  color: white;
+  font-weight: 600;
+}
+@keyframes opacity {
+  0%, 100%   {opacity:0;}
+  50%  {opacity:1;}
+}
+@keyframes change {
+  0%, 12%, 100%   {transform:translateY(0);}
+  17%,29%  {transform:translateY(-25%);}
+  34%,46%  {transform:translateY(-50%);}
+  51%,63%  {transform:translateY(-75%);}
+  68%,80%  {transform:translateY(-50%);}
+  85%,97%  {transform:translateY(-25%);}
+}
+----------------*/
+
+/*intro css*/
+.container-size{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -27%;
+  width: 54%;
+  height: 300px;
+}
+
+.intro-font-style{
+  color: white;
+  font-size: 190%;
+  line-height: 130%;
+}
+
+.intro-hr-style{
+  margin: 15px;
+  border: none;
+  height: 3px;
+  background-image: linear-gradient(to right,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.75),rgba(255, 255, 255, 0));
+}
+
+.typed-font-style{
+  color: white;
+  font-size: 290%;
+  line-height: 100%;
+}

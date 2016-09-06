@@ -1,0 +1,12 @@
+.footer-font-style{
+  font-size: 250%;
+}
+
+.footerstyle{
+  height: 150px;
+  background-color: #303f9f;
+  color: white;
+  margin: 0px !important;
+  border: none;
+  text-align:center;
+}

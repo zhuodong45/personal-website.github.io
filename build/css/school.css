@@ -1,0 +1,15 @@
+.ck-slide {
+  position: relative;
+  left: 50%;
+  width: 800px;
+  height: 600px;
+  margin: 0 0 0 -400px;
+}
+
+.ck-slide ul.ck-slide-wrapper {
+  height: 350px;
+}
+
+.opacity-item{
+  opacity: 0;
+}
