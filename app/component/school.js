@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class School extends React.Component {
   componentDidMount(){
-    window.scrollTo(0,0);
+    window.scrollTo(1000,0);
   }
   render() {
     return (
@@ -13,22 +13,22 @@ export default class School extends React.Component {
         <div className="ck-slide">
 			    <ul className="ck-slide-wrapper">
 				      <li>
-					      <img src="build/img/1.jpg"  width="800px;" alt=""/>
+					      <img src="build/img/1.jpg" width="800px" alt=""/>
 				      </li>
       				<li className="opacity-item">
-      					<img src="build/img/2.jpg" width="800px;" alt=""/>
+      					<img src="build/img/2.jpg" width="800px" alt=""/>
       				</li>
       				<li className="opacity-item">
-      					<img src="build/img/3.jpg" width="800px;" alt=""/>
+      					<img src="build/img/3.jpg" width="800px" alt=""/>
       				</li>
       				<li className="opacity-item">
-      					<img src="build/img/4.jpg" width="800px;" alt=""/>
+      					<img src="build/img/4.jpg" width="800px" alt=""/>
       				</li>
       				<li className="opacity-item">
-      					<img src="build/img/5.jpg" width="800px;" alt=""/>
+      					<img src="build/img/5.jpg" width="800px" alt=""/>
       				</li>
               <li className="opacity-item">
-      					<img src="build/img/6.jpg" width="800px;" alt=""/>
+      					<img src="build/img/6.jpg" width="800px" alt=""/>
       				</li>
 			    </ul>
 			    <a href="javascript:;" className="ctrl-slide ck-prev">上一张</a> <a href="javascript:;" className="ctrl-slide ck-next">下一张</a>
