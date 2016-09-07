@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class School extends React.Component {
   componentDidMount(){
-    window.scrollTo(1000,0);
+    window.scrollTo(0,0);
   }
   render() {
     return (

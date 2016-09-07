@@ -21,35 +21,35 @@ export default class Events extends React.Component {
         <div className="row">
           <hr className="event-hr-style"/>
           <div className="col-md-3">
-            <a href="build/img/1.jpg" data-title="test" data-lightbox="event"><img src="build/img/1.jpg" className="img-thumbnail"/></a><br/>
+            <a href="build/img/2016-Fall-BBQ-1.jpg" data-title="2016 Fall BBQ" data-lightbox="2016 Fall BBQ"><img src="build/img/2016-Fall-BBQ-1.jpg" className="img-thumbnail"/></a><br/>
           </div>
           <div className="col-md-3">
-            <a href="build/img/2.jpg" data-title="test" data-lightbox="event"><img src="build/img/2.jpg" className="img-thumbnail"/></a>
+            <a href="build/img/2016-Fall-BBQ-2.jpg" data-title="2016 Fall BBQ" data-lightbox="2016 Fall BBQ"><img src="build/img/2016-Fall-BBQ-2.jpg" className="img-thumbnail"/></a>
           </div>
           <div className="col-md-3">
-            <a href="build/img/3.jpg" data-title="test" data-lightbox="event"><img src="build/img/3.jpg" className="img-thumbnail"/></a>
+            <a href="build/img/2016-Fall-BBQ-3.jpg" data-title="2016 Fall BBQ" data-lightbox="2016 Fall BBQ"><img src="build/img/2016-Fall-BBQ-3.jpg" className="img-thumbnail"/></a>
           </div>
           <div className="col-md-3">
-            <a href="build/img/4.jpg" data-title="test" data-lightbox="event"><img src="build/img/4.jpg" className="img-thumbnail"/></a>
+            <a href="build/img/2016-Fall-BBQ-4.jpg" data-title="2016 Fall BBQ" data-lightbox="2016 Fall BBQ"><img src="build/img/2016-Fall-BBQ-4.jpg" className="img-thumbnail"/></a>
           </div>
           <div>
-            <font className="event-font-style">Hack UMass Event</font>
+            <font className="event-font-style">2016 Fall UMass Amherst BBQ Event</font>
           </div>
         </div>
 
         <div className="row margin-bot">
           <hr className="event-hr-style"/>
           <div className="col-md-3">
-            <a href="build/img/1.jpg" data-title="test" data-lightbox="event"><img src="build/img/1.jpg" className="img-thumbnail"/></a><br/>
+            <a href="build/img/1.jpg" data-title="test" data-lightbox="event2"><img src="build/img/1.jpg" className="img-thumbnail"/></a><br/>
           </div>
           <div className="col-md-3">
-            <a href="build/img/2.jpg" data-title="test" data-lightbox="event"><img src="build/img/2.jpg" className="img-thumbnail"/></a>
+            <a href="build/img/2.jpg" data-title="test" data-lightbox="event2"><img src="build/img/2.jpg" className="img-thumbnail"/></a>
           </div>
           <div className="col-md-3">
-            <a href="build/img/3.jpg" data-title="test" data-lightbox="event"><img src="build/img/3.jpg" className="img-thumbnail"/></a>
+            <a href="build/img/3.jpg" data-title="test" data-lightbox="event2"><img src="build/img/3.jpg" className="img-thumbnail"/></a>
           </div>
           <div className="col-md-3">
-            <a href="build/img/4.jpg" data-title="test" data-lightbox="event"><img src="build/img/4.jpg" className="img-thumbnail"/></a>
+            <a href="build/img/4.jpg" data-title="test" data-lightbox="event2"><img src="build/img/4.jpg" className="img-thumbnail"/></a>
           </div>
           <div>
             <font className="event-font-style">Hack UMass Event</font>
