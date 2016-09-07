@@ -4,7 +4,7 @@
   display: block;
   font-size: 140%;
   font-weight: 500;
-  line-height: 40px;
+  line-height: 43px;
   font-family: Raleway;
   margin: 0px;
   max-width: 110px;
@@ -114,7 +114,7 @@
 
 .logo-style{
   width: 200px;
-  height: 40px;
+  height: 43px;
   margin-left: 10px;
 }
 
@@ -125,7 +125,7 @@
   margin: 0px;
   margin-bottom: 20px;
   padding: 0px;
-  background-color:rgba(0,0,0,0.4);
+  background-color:rgba(0,0,0,0.5);
   transition: background-color 0.5s;
   width: 100%;
   z-index: 100;

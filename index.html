@@ -37,6 +37,16 @@
 
   <body id="body">
     <style>
+      body{
+        /*background-image:url(../img/key-small.jpg);*/
+        -moz-background-size: 100% 100%; /*  Firefox 3.6 */
+        -o-background-size: 100% 100%;/* Opera 9.5 */
+        -webkit-background-size: 100% 100%;/* Safari 3.0 */
+        background-size: 100% 100%;/*  Firefox 4.0 and other CSS3-compliant browsers */
+        -moz-border-image: url(scale.jpg) 0; /* Firefox 3.5 */
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='scale.jpg', sizingMethod='scale');/* for < ie9 */
+        background-attachment:fixed;
+      }
       a{cursor: pointer; text-decoration:none;}
       *{font-family: 'Raleway';}
     </style>

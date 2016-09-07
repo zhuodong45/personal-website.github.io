@@ -1,19 +1,21 @@
 jQuery(document).ready(function(){
   //beginning setup
-  if($(window).width() < 900){
-    $("body").addClass("background-small");
+  if($(window).width() < $(window).height()){
+    $("body").css("background-image", "url(build/img/key-height.jpg)");
+  } else if ($(window).width() < 900){
+    $("body").css("background-image", "url(build/img/key-small.jpg)");
   } else {
-    $("body").addClass("background-large");
+    $("body").css("background-image", "url(build/img/key.jpg)");
   }
 
   //window resize
   $(window).resize(function(){
-    if($(window).width() < 900){
-      $("body").removeClass("background-large");
-      $("body").addClass("background-small");
+    if($(window).width() < $(window).height()){
+      $("body").css("background-image", "url(build/img/key-height.jpg)");
+    } else if ($(window).width() < 900){
+      $("body").css("background-image", "url(build/img/key-small.jpg)");
     } else {
-      $("body").removeClass("background-small");
-      $("body").addClass("background-large");
+      $("body").css("background-image", "url(build/img/key.jpg)");
     }
   });
 
