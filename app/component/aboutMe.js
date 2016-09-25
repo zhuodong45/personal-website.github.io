@@ -11,13 +11,13 @@ export default class AboutMe extends React.Component {
       <div>
         <div className="title-style put-mid"><font>ABOUT ME</font></div>
         <hr className="hr-style"/>
-        <div className="put-mid"><img className="put-mid" src="./build/img/test.jpeg" width="70%" /></div>
+        <div className="put-mid"><img className="put-mid" src="./build/img/IMG_2943_meitu_1.jpg" width="70%" /></div>
 
         <div id="aboutme-not-type" className="mypanel">
           <font className="aboutme-font-style">
             My name is Zhuodong Huang, a programmer in this world. I am a student in UMass Amherst. Computer science is my major. I love programming and I enjoy the time when I work on my projects.
             <br/>
-            <br/>· Programming languages: Java, C, HTML/CSS, JavaScript, Scala, Android, Python.
+            <br/>· Experiences: Java, C, HTML/CSS, JavaScript, SQL, Node.js, MongoDB, Scala, Android, Python.
             <br/>· Platforms: Windows, Linux.
             <br/>
             <br/>· Email: zhuodong45@gmail.com
@@ -25,7 +25,6 @@ export default class AboutMe extends React.Component {
             <br/>For more detail, you can take a look at my Resume or <a className="font-color" href="mailto:zhuodong45@gmail.com">email me</a>.
           </font>
         </div>
-
       </div>
     </div>
     )

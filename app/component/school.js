@@ -46,7 +46,7 @@ export default class School extends React.Component {
     			</div>
 		    </div>
 
-        <div className="mypanel"><font className="font-style">Take a quick look at my university. I love this school, it left many precious memories for me. The University of Massachusetts Amherst, (otherwise known as UMass Amherst or simply UMass) is a public research and land-grant university in Amherst, Massachusetts, United States, and the flagship of the University of Massachusetts system. With approximately 1,300 faculty members and more than 29,000 students, UMass Amherst is the largest public university in New England.</font></div>
+        <div className="mypanel"><font className="font-style">Take a quick look at my university. I love this school, it gives many precious memories for me. The University of Massachusetts Amherst, (otherwise known as UMass Amherst or simply UMass) is a public research and land-grant university in Amherst, Massachusetts, United States, and the flagship of the University of Massachusetts system. With approximately 1,300 faculty members and more than 29,000 students, UMass Amherst is the largest public university in New England.</font></div>
       </div>
     )
   }

@@ -33,26 +33,26 @@ export default class Events extends React.Component {
             <a href="build/img/2016-Fall-BBQ-4.jpg" data-title="2016 Fall BBQ" data-lightbox="2016 Fall BBQ"><img src="build/img/2016-Fall-BBQ-4.jpg" className="img-thumbnail"/></a>
           </div>
           <div>
-            <font className="event-font-style">2016 Fall UMass Amherst BBQ Event</font>
+            <br/><font className="event-font-style">2016 Fall UMass Amherst BBQ Event</font>
           </div>
         </div>
 
         <div className="row margin-bot">
           <hr className="event-hr-style"/>
           <div className="col-md-3">
-            <a href="build/img/1.jpg" data-title="test" data-lightbox="event2"><img src="build/img/1.jpg" className="img-thumbnail"/></a><br/>
+            <a href="build/img/2015hackumass-1.jpg" data-title="2015 HackUMass" data-lightbox="2015 HackUMass"><img src="build/img/2015hackumass-1.jpg" className="img-thumbnail"/></a><br/>
           </div>
           <div className="col-md-3">
-            <a href="build/img/2.jpg" data-title="test" data-lightbox="event2"><img src="build/img/2.jpg" className="img-thumbnail"/></a>
+            <a href="build/img/2015hackumass-2.jpg" data-title="2015 HackUMass" data-lightbox="2015 HackUMass"><img src="build/img/2015hackumass-2.jpg" className="img-thumbnail"/></a>
           </div>
           <div className="col-md-3">
-            <a href="build/img/3.jpg" data-title="test" data-lightbox="event2"><img src="build/img/3.jpg" className="img-thumbnail"/></a>
+            <a href="build/img/2015hackumass-3.jpg" data-title="2015 HackUMass" data-lightbox="2015 HackUMass"><img src="build/img/2015hackumass-3.jpg" className="img-thumbnail"/></a>
           </div>
           <div className="col-md-3">
-            <a href="build/img/4.jpg" data-title="test" data-lightbox="event2"><img src="build/img/4.jpg" className="img-thumbnail"/></a>
+            <a href="build/img/2015hackumass-4.jpg" data-title="2015 HackUMass" data-lightbox="2015 HackUMass"><img src="build/img/2015hackumass-4.jpg" className="img-thumbnail"/></a>
           </div>
           <div>
-            <font className="event-font-style">Hack UMass Event</font>
+            <br/><font className="event-font-style">Hack UMass Event</font>
           </div>
         </div>
 
